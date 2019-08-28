@@ -77,7 +77,7 @@ class ViewController: UITableViewController {
                 
                 let cell = tableView.dequeueReusableCell(withIdentifier: "ReuseId", for: indexPath)
                 cell.textLabel?.numberOfLines = 0
-                cell.textLabel?.text = tableViewData[indexPath.section].sectionName[dataIndex] + " : " + tableViewData[indexPath.section].sectionData[dataIndex]
+                cell.textLabel?.text = tableViewData[indexPath.section].sectionName[dataIndex] + "  : " + tableViewData[indexPath.section].sectionData[dataIndex]
                 return cell
                 
                 
